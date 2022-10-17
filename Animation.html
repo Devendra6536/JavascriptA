@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <title>this is animation Engine</title>
+    <head>
+        <style>
+            h1{
+                color:blue;
+            }
+
+            .container{
+                height: 100px;
+                width: 100px;
+                position: relative;
+                border-radius: 15px 15px;
+                background-color: blue;
+                visibility: visible;
+                animation-name: example;
+                animation-duration: 3s ; 
+                animation-delay: 1s;
+                animation-iteration-count: infinite;
+                animation-timing-function: ease-out;
+                animation-fill-mode: forwards;
+                animation-play-state: play;
+            }
+
+            @keyframes example {
+              0%  {background-color:blue;
+              opacity: 0.5;
+              
+                left: 0px; 
+              top: 0px;
+              }
+              /* 25% { left: 50px; top: 0px;
+              opacity: 0.5;}
+
+              50% { left: 100px; top: 0px;
+              opacity:0.3;
+               }
+              75% {    opacity: 0.2;
+              } */
+              100%{ left: 200px; top: 0px;
+              opacity:0.1;}
+              
+            }
+
+        </style>    
+    </head>
+
+    <body>
+
+        <h1>welcome to animation Engine</h1>
+<p><b>Note:</b> tis is example os css animation</p>
+        <div class="container">
+
+
+        </div>
+    </body>
+</html>

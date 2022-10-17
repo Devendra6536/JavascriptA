@@ -1,0 +1,446 @@
+        
+             html{
+                font-family:'Lucida Sans', sans-serif
+            } 
+            
+            *{
+                box-sizing: border-box;
+            }
+        
+            .header{
+                border: 1px solid red;
+                background-color:#9933cc;
+                color: #ffffff;
+                padding:15px;
+                font-family: cursive;
+            }
+        
+
+            .row ul{
+                list-style-type: none;
+                margin:0;
+                padding:0;
+                
+            }
+            .row li{
+                padding: 8px;
+                margin-bottom:7px;
+                /* background-color:#33b5e5; */
+                background-color:white;
+                color:black;
+                box-shadow: 0 1px 3px rgba(0,0,0, 0.12) , 0 1px 2px rgba(0,0,0, 0.24);
+        
+            }
+
+            .row li:hover{
+                background-color:#0099cc;
+            }
+
+            [class *="col-" ]{
+                float: left;
+                padding:20px;
+                /* border: 1px solid blue; */
+            }
+
+
+
+            .col-1 {width:8.33%;}
+            .col-2 {width:16.66%;}
+            .col-3 {width:25%;}
+            .col-4 {width:33.33%;}
+            .col-5 {width:41.66%;}
+            .col-6 {width:50%;}
+            .col-7 {width:58.33%;}
+            .col-8 {width:66.66%;}
+            .col-9 {width:75%;}
+            .col-10 {width:83.33%;}
+            .col-11 {width:91.66%;}
+            .col-12 {width:100%;}
+
+          .footer{
+                color:white;
+                background-color:#0099cc;                
+                text-align: center;
+                padding: 15px;
+            }
+
+
+
+            @media only screen and ( max-width:768px){
+                [class *="col-"]{
+                    width: 100%;
+                            }                        
+            }
+            
+
+            img{
+                height: 200px;
+                width: 300px;
+                border-radius: 20px 0px 0px 0px;
+                box-shadow: 0 0 40px black;
+                
+            }
+            img:hover{
+                box-shadow:0 0 50px green;
+                
+            }
+
+            #readmore{
+                display:none;
+
+            }
+
+            .btn{
+                color:black;
+                font-family: cursive;
+                margin: 0px;
+                padding:0px;
+                margin-left: 45px;
+                height: 30px;
+                width: 100px;
+                background-color:rgb(158, 233, 158);
+
+            }
+            
+            #about{
+                display:none;
+            }
+
+            .image_about{
+                width: 400px;;
+                height:200px;                
+                padding: 10px;
+                margin:10px;
+                background-color:rgb(158, 233, 158);
+                color:white;
+                margin-left:0px; 
+                margin-top: -400px;
+                margin-bottom: 200px; 
+                box-shadow: 0 0 40px black;
+                text-align: center;
+                
+                
+            }
+            .info {
+                height: 100px;
+                width: 100px;
+                border-radius: 50%;
+                float: center;
+                margin-right:15px;
+            }
+            
+            .tooltip{
+                position: relative;
+                display: inline-block;
+                
+            }
+
+            .tooltip-text{
+                visibility: hidden;
+                width: 450px;
+                height: 350px;
+                background-color:rgb(158, 233, 158);
+                color:white;
+                text-align: center;
+                border-radius: 6px;
+                /* padding: 5px 0; */
+                position: absolute;
+                z-index: 8;
+                margin-top: -550px;
+                box-shadow: 0 0 40px black;
+            }
+
+            .tooltip:hover .tooltip-text{
+                visibility: visible;
+
+            }     
+
+           
+        nav ul{    
+            background-color:rgb(158, 233, 158);
+            overflow:hidden;
+            margin:0px;
+                    
+          }
+
+        ul.topnav li{
+            list-style:none;
+            float: left;
+            
+        }
+        ul.topnav li.topnav-right{
+            float: right;
+        }
+        ul.topnav li a{
+    display: block;
+    text-decoration: none;
+    min-height: 16px;
+    text-align: center;    
+    padding: 10px;
+    text-transform: uppercase;
+    color: #666;
+    /* color: #fff; */
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:500;
+     
+}
+        
+        ul.topnav li a:hover{
+            background-color:#0080ff;
+            color:#fff;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /* ////////////////////////////this is log in form code /////////////////////*/
+
+
+
+.forms{
+    border: 3px solid #f1f1f1;
+    height: 550px;
+    width: 400px;
+    box-shadow: 0 0 40px black;
+    border-radius: 10px;
+    padding: 25px;
+    margin:auto;
+    display:none;
+    margin-bottom:-580px;
+    margin-top: 30px;
+    position: relative;
+    background-color:white;
+}
+
+#form-title{
+    font-size: 25px;
+    font-family:century gothic;
+    text-align:center;
+}
+input[type="text"]{
+    border-radius: 25px;
+    margin: 10px;
+    padding:20px;
+    border: none;
+    background: #f1f1f1;
+    width: 100%;
+    height: 42px;
+    outline: none;
+}
+input[type="password"]{
+    border-radius: 25px;
+    margin: 10px;
+    padding:20px;
+    border: none;
+    background: #f1f1f1;
+    width: 100%;
+    height: 42px;
+    outline: none;
+    scroll-behavior: 200px;
+}
+
+.can{
+    color: #fff;
+    background-color:#04AA6D;
+    height: 50px;
+    margin: 10px;
+    width: 100%;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    /* font-family: century gothic; */
+    font-family:'Lucida Sans', sans-serif;
+    font-weight:100;
+
+}
+.can:hover{
+    opacity: 0.5;
+}
+
+.close{
+    background-color:red;
+    color:white;
+    height: 50px;
+    margin: 10px;
+    width: 100%;
+    border: none;
+    font-size: 20px;
+    font-family:'Lucida Sans', sans-serif
+}
+.close:hover{
+    opacity: 0.5;
+}
+.close-button{
+    background-color:#076DEF;
+    color:white;
+    font-size: 20px;
+    float: left;
+    border: none;
+    padding: 10px 5px;
+}
+.control-label{
+    font-size: 20px;
+    font-weight: 500px;
+    font-family: century gothic;
+    font-weight:900;
+    
+
+}
+
+/* this is sign up page codings */
+.signup-form{
+    
+    height: 500px;
+    width: 350px;
+    position: relative;
+    box-shadow: 0 0 50px black;
+    border-radius: 10px;
+    padding: 25px;
+    margin:auto;
+    display:none;
+    margin-bottom:-580px;
+    margin-top:80px;
+    background-color: #fff;
+}
+
+
+/* web icon coding part */
+
+.icon{
+    height: 30px;
+    width: 55px;
+    padding:5px;
+    /* margin:3px 3px 3px 3px; */
+    text-align: center;
+    background-color:blue;
+    color:white;
+    margin-left: 18px;    
+    box-shadow: 0 0 4px black;
+}
+#suggestion {
+    color:blue;
+}
+
+#about_dsf{
+    display:none;
+    height: 400px;
+    width: 500px;
+    margin-top:10px;
+    margin-bottom: -400px;
+    margin-left:200px;
+    /* border:2px solid blue; */
+    background-color:rgb(158, 233, 158);
+    color:white;
+    box-shadow: 0 0 40px black;
+    
+     
+
+}
+
+#about_dsf.tooltips{     
+    width: 450px;
+    height: 350px;
+    background-color:rgb(158, 233, 158);
+    color:white;
+  
+     
+    border-radius: 6px;
+    /* padding: 5px 0; */
+    position: absolute;
+    z-index: 8;
+    margin-top: -550px;
+     
+}
+
+.info_of_about_img{
+                height: 140px;
+                width: 140px;
+                border-radius: 50%;
+                margin-left: 150px;
+                margin-right:15px;
+
+}
+
+.sda{
+    margin-left:200px;
+}
+
+
+@media only screen and ( max-width:768px){
+     #about_dsf{
+        
+        margin-left:10px;
+        width: 410px;
+                } 
+                
+                
+    .tooltip-text{
+        margin-left:10px;
+        width: 380px;
+        height: 400px;
+    }
+
+    
+}
+
+
+
+
+
+
+
+/* this is seemore extra */
+#seemores{
+    display:none;
+}
+#low{
+    display: none;
+}
+
+.more{
+    margin-top: 10px;
+    margin-bottom:-1px;
+    color:white;
+    background-color:blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.or{
+    margin-top:50px;
+    margin-left: 20px;
+    width:280px;
+    height:200px;
+    background-color:white;
+    box-shadow: 0 0 40px black;
+    border-radius:20px 0px 0px 0px;
+}

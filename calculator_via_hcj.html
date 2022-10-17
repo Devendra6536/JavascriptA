@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>Percentage Calcutor
+
+
+        <style>
+
+            .container{
+                border: 10px solid green;
+                width: 50%;
+                /* border-bottom-left-radius: 25px;
+                border-bottom-right-radius: 25px; */
+                /* border-start-start-radius: 50px; */
+            }
+            .containers{
+                display: inline-flex;
+                border: 2px solid black;
+                width: 350px;
+                height: 400px;
+                padding: 25px;
+                /* text-align: center; */
+            }
+            
+            div.containers .add,
+            .sub,
+             .divi,
+             .mul,
+             .on,
+             .percentage,
+             .Off,
+             .number{ 
+                              
+                color: white;
+                background-color:blue;
+                border: 2px solid black;
+                border-radius: 50%;
+                width: 40px;
+                height: 30px;
+                /* text-align: center; */
+                cursor: pointer;
+
+            }
+        #ex{
+            color: black;
+           text-decoration: underline;
+           
+           font-family: serif;
+           font-variant: small-caps;
+        }
+            
+        button{
+            height: 50px;
+            width: 50px;
+            color: white;
+            background-color:blue;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+        <marquee behavior="alternate" onmouseover="stop();" onmouseout="start();"><h1>Percentage Calcutors</h1></marquee>
+        <p>X is what % of Y?</p>
+        <form id="XisWhatpercentageofY" >
+            <input type="text" id="numField1" > is what % of
+            <input type="text" id="numField2">?<br><br>
+            <input type="submit" value="calculate">
+        </form>
+        <!-- <button onclick="myOnclicker()">Calculate</button> -->
+        <h3 id="resultField">Result: 100%</h3>
+        </div>
+
+
+        <script type="text/javascript" src="percentage_cal.js"> </script>
+
+
+
+<br>
+<br>
+        <div class="containers">
+            <div class="number">1</div>
+            <div class="number">2</div>
+            <div class="number">3</div>
+            <div class="number">4</div>
+            <div class="number">5</div>
+            <div class="number">6</div>
+            <div class="number">7</div>
+            <div class="number">8</div>
+            <div class="number">9</div>
+            <div class="number">0</div>
+            <div class="add">+</div>
+            <div class="sub">-</div>
+            <div class="divi">/</div>
+            <div class="mul">*</div>
+            <div class="percentage">%</div>
+            <div class="on">On</div>
+            <div class="Off">OFF</div>
+        </div>
+
+
+        <marquee><h1 id="ex">Devendra Kumar pal garhikhanpur badaun uttar pradesh</h1></marquee>
+
+        <button type="button" >click</button>
+    </body>
+</html>

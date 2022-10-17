@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="rwd.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+       crossorigin="anonymous"/>
+
+        
+    </head>
+    <body >  
+        
+        
+        <nav>
+            <ul class="topnav" id="dropdownClick">
+                <li><a  class="active" href="#" target="blank"> <i class="fa fa-home"></i>  Home</a></li>
+                <li><a class="active" href="">&#128240;News</a></li>
+                <li><a href="#home">&#128241;Contact</a></li>
+                <li><a href="#home" onclick="About_info()" > <i class="fa fa-id-card"></i>About</a></li>
+                <li class="topnav-right"><a href="#Signup" onclick="signup()">&#128516;Sign Up</a></li>
+                <li class="topnav-right"><a href="javascript:void(0);" onclick="openForms()">&#128517;Sign In</a></li>
+               
+
+            </ul>
+    </nav>
+
+        <!-- this is log in form code -->
+ <div class="forms" id="form">
+    <marquee><h1 id="form-title">LOG IN FORM</h1></marquee>
+    <form>
+        <label class="control-label">&#9993; Email</label><br>
+        <input type="text" placeholder="Enter Email" name="name">
+<br>
+    <label class="control-label"> &#128272; Password</label><br>
+    <input type="password" placeholder="Enter Password" name="passwordname" allowed>
+
+
+        <br>
+    <button type="button" class="btn can" onclick="showLogin()">Login</button>
+
+    <button type="button" class="btn close " onclick="closeForm()"> Close Form</button>
+    </form>
+    
+
+    <!-- this is web icon like whatsapp,facebook,ista,wordpress etc... -->
+    <center><p id="suggestion" >Log in with</p></center>
+    <hr style="height: 3px; background-color:blue;">
+    <br>
+           
+<!-- this is webicon-->
+     <a href=https://www.facebook.com target="blank" > <i class="fa icon fa-facebook" style="font-size:25px;"></i></a>
+     <a href="https://www.instagram.com" target="blank">   <i class="fa icon fa-instagram" style="font-size:25px; background-color:red; "></i></a>
+     <a href=https://www.linledin.com  target="blank"> <i class="fa icon fa-linkedin"   style="font-size:25px; background-color:#0080ff;"></i></a> 
+     <a href="https://www.twitter.com" target="blank">   <i class="fa  icon fa-twitter"  style="font-size:25px; background-color:#0080ff;"></i></a> 
+     <!-- <a href=https://www.telegram.com  target="blank"> <i class="fa icon fa-telegram"  style="font-size:25px;color:white;"></i></a> -->
+     
+    <!-- <a href="https://www.youtube.com" target="blank">   <i class="fa icon fa-youtube"  style="font-size:25px;color:white; background-color:red;"></i></a>     -->
+     
+      
+</div>
+
+<!-- this is sign up page coding -->
+
+
+    <!-- this is sign up form code -->
+<!-- <button class="close-button" onclick="openForms()">open Form</button> -->
+<div class="signup-form" id="signpage">
+    <h1 id="form-title">SIGN UP FORM</h1>
+    <form>
+        <label class="control-label"><i class="fa fa-users"></i>&nbsp;Username</label><br>
+        <input type="text" placeholder="Enter Your Name" name="name">
+
+
+        <label class="control-label">&#9993; Email</label><br>
+        <input type="text" placeholder="Enter Email" name="name">
+<br>
+    <label class="control-label">&#128272; Password</label><br>
+    <input type="text" placeholder="Enter Password" name="passwordname">
+
+
+        <br>
+    <button type="button" class="btn can" onclick="showsignup()">Sign up</button>
+
+    <button type="button" class="btn close " onclick="closesignupForm()">Close Form</button>
+    </form>
+</div>
+<div class="tooltip" id="about_dsf">
+
+    <div class="tooltips">
+        <br>
+        <img class="info_of_about_img" src="devendra1.jpg">
+        <br><br>
+        <table >
+            <tr>
+                <th>Name :</th>
+                <td>Devendra kumar pal</td>
+            </tr>
+
+            <tr>
+                <th>Email-Id :</th>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;devendrapal8682@gmail.com</td>
+            </tr>
+            <tr>
+                <th>Contact-no :</th>
+                <td>8630834625</td>
+            </tr>
+            <tr>
+                <th>Address :</th>
+                <td>Vill+Post Garhikhanpur <br>vikas khand Islamnager teh<br> Bilsi(Badaun) Uttar<br> Pradesh India-202523</td>
+            </tr>
+             
+            
+
+        </table>
+
+
+    </div>   <br>
+     
+<button type="button" class="sd sda" onclick="CloseAbout()" style="background-color:white; color:black;   font-family:century gothic; 
+font-weight: 900;">Compress</button>
+</div>
+
+
+<!-- this is page coding -->
+     <div class="header"><h1>Welcome to css engine </h1></div>
+
+
+
+        <div class="row">
+
+            <div class="col-3">
+                <ul>
+                    <li>India🤍</li>
+                    <li>Japaan</li>
+                    <li>birten</li>
+                    <li>Nepal</li>
+                    <li>China</li>
+                    <li>Switzerland</li>
+                </ul>
+            </div>
+            <div class="col-9">
+                <h1>The Country</h1>
+                <p>Garhikhanpur is small village situated in badaun district
+                    uttar pradesh india-202523.
+                </p>
+                <p> It is 215 km away from nation capital region New delhi.
+                    To reach <b>Garhikhanpur</b> there are many services like  bus services, train services etc are available
+                    24*7. 
+                </p>
+                <p>The total Population of garhikhanpur is 2265(1235-male and 1035-female).The number of family in garhikhanpur is 265.In each family has average 10 members including both(male and female).</p>
+                <p> for more information call-8630834625, 9084014625</p>
+            </div>
+          
+            <div class="col-12 right">
+            <div class="aside">
+                <h2>what?</h2>
+                <p>Garhikhanpur is small village in badaun.</p>
+                <h2>Where?</h2>
+                <p>215 Km away from nation capital region new delhi.</p>
+                <h2>how?</h2>
+                <p>you can reach <b><q>Garhikhanpur</q></b> via moradabad, Chandausi through the train, buses.</p>
+        <input list="dk">
+        <datalist id="dk">
+            <option value="Garhikhanpur"></option>
+            <option>Pinauni</option>
+            <option>isamnager</option>
+        </datalist>
+            </div>    
+
+        </div> 
+        
+         
+<br>
+<div class="col-12">
+    <h1>Garhikhanpur Extension</h1>
+    <p>Once Upon a time there is a king in this village. The name of the king is <b>"Rajdutta patel"</b>.
+    Rajdutta patel has a wife and two girls in his family.his daughter's name is
+    suribhi patel and second one is Rashmi patel.<a href="#" onclick="readmore()">⏯ Read more....</a> </p>
+    <p id="readmore">
+        this story of a greedy king.he was very cruel and naughty.
+        the people of this village are very sad .
+        <br><br>
+        <button  type="button" class="btn"onclick="readless()">⏮ Read Less</button>
+</p>
+         
+    
+</div>
+  
+
+<div class="col-3 tooltip"  >
+    <a href="###" ><img src="img5.jpg" ></a>
+    
+
+
+    <div class="tooltip-text" id="seemore">
+        <br>
+        <img class="info" src="devendra1.jpg">
+        <br><br>
+        <table >
+            <tr>
+                <th>Name :</th>
+                <td>Devendra kumar pal</td>
+            </tr>
+
+            <tr>
+                <th>Email-Id :</th>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;devendrapal8682@gmail.com</td>
+            </tr>
+            <tr>
+                <th>Contact-no :</th>
+                <td>8630834625</td>
+            </tr>
+            <tr>
+                <th>Address :</th>
+                <td>Vill+Post Garhikhanpur <br>vikas khand Islamnager teh<br> Bilsi(Badaun) Uttar<br> Pradesh India-202523</td>
+            </tr>
+             
+
+             
+
+        </table>
+        <button type="button" class="more" id="unview" onclick="seemore()" style="background-color:white; color:black;   font-family:century gothic; 
+font-weight: 900;">expend</button>
+
+<button type="button" class="more" id="low"  onclick="seeless()" style="background-color:white; color:black;   font-family:century gothic; 
+font-weight: 900;">Compress</button>
+    </div>
+</div>
+<div class="col-3" id="rwd">
+
+     <!-- about img information  --> 
+    <div class="image_about" id='about'>   
+        <p>i am a desi  body.
+            i am devendra kumar. I am a student of b.tech(Bachlor of Technolgy) in computer science and Engineering.
+            in this college there are aporoxmetly 4000student students i various branches.<br><br>
+         </p> 
+    </div> 
+    
+    <a href="###"><img src="img6.jpg" onmouseout="less_about()" onmouseover="ALL_about()"></a>
+     
+     
+
+</div>
+<div class="col-3 tooltip">
+    <a href="###" ><img src="img7.jpg"></a>
+    <div class="tooltip-text">this is image</div>
+     
+</div>
+<div class="col-3 tooltip">
+    <a href="###" ><img src="img8.jpg"></a>
+    <div class="tooltip-text"> this is puneet, Omsaran pal and Devendra</div>
+        
+</div>
+
+<div class="col-3 or" style="font-size:30px; padding:0%;  font-weight:900; color:#0080ff; margin-left:50px;">
+    <div style="height: 80px; width: 280px;; border-radius:20px 0px 0px 0px;
+     background-color:rgb(158, 233, 158);">
+      
+     <h1 style="font-size:20px; margin-top:0px; margin-left: 20px; color:blue;"> python 3</h1>
+     </div>
+
+    <h1 style="font-size:20px; margin-top:10px; margin-left:5px; color:blue;">Click here to read Continue</h1>
+   <a href="web1.html" target="_blank" style="text-decoration:none; float:right; margin-top:10px; margin-right: 20px;"  >&#x2192</a>
+</div>
+
+<!-- this is second division of the second row -->
+<div class="col-3 or" style="font-size:30px; padding:0%;  font-weight:900; color:#0080ff; margin-left:50px;">
+    <div style="height: 80px; width: 280px;; border-radius:20px 0px 0px 0px;
+     background-color:rgb(158, 233, 158)">
+     <img src="img4.jpg" style="height: 80px; width: 280px; box-shadow: none;">
+     <!-- <h1 style="font-size:20px; margin-top:0px; margin-left: 20px; color:blue;"> Java</h1> -->
+     </div>
+     <h1 style="font-size:20px; margin-top:0px; margin-left: 20px; color:blue;"> Java</h1>
+    <h1 style="font-size:20px; margin-top:10px; margin-left:5px; color:blue;">Click here to read Continue</h1>
+   <a href="web1.html" target="_blank" style="text-decoration:none; float:right; margin-top:-18px; margin-right: 20px;"  >&#x2192</a>
+</div>
+
+
+
+<!-- this is third division of the second row -->
+<div class="col-3 or" style="font-size:30px; padding:0%;  font-weight:900; color:#0080ff; margin-left:50px;">
+    <div style="height: 80px; width: 280px;; border-radius:20px 0px 0px 0px;
+     background-color:rgb(158, 233, 158);">
+     <h1 style="font-size:20px; margin-top:0px; margin-left: 20px; color:blue;"> PHP</h1>
+     </div>
+
+    <h1 style="font-size:20px; margin-top:10px; margin-left:5px; color:blue;">Click here to read Continue</h1>
+   <a href="#" target="_blank" style="text-decoration:none; float:right; margin-top:10px; margin-right: 20px;"  >&#x2192</a>
+</div>
+
+
+
+<!-- this is fourth  division of the second row -->
+<div class="col-3 or" style="font-size:30px; padding:0%;  font-weight:900; color:#0080ff; margin-left:50px;">
+    <div style="height: 80px; width: 280px; border-radius:20px 0px 0px 0px;
+     background-color:rgb(158, 233, 158)">
+      <h1 style="font-size:20px; margin-top:0px; margin-left: 20px; color:blue;"> Sql</h1>
+     </div>
+
+    <h1 style="font-size:20px; margin-top:0px; margin-left:5px; color:blue;">Click here to read Continue</h1>
+   <a href="web1.html" target="_blank" style="text-decoration:none; float:right; margin-top:10px; margin-right: 20px;"  >&#x2192</a>
+</div>
+
+        
+    
+
+
+
+<!-- this is coding of row -->
+</div>
+<br>
+<br>
+
+        <div class="footer">
+            
+            <p>@devendra pal garhikhanpur badaun uttar pradesh india se
+                19c
+                complex-s 2nd floor islamnager road in front of 
+                uchhtar madhymik vidyalay garhikhanpur
+                243723.
+            </p>
+           
+        </div>
+        
+
+        <script>
+            function readmore(){
+                document.getElementById("readmore").style.display="block";
+            }
+
+            function readless(){
+                document.getElementById("readmore").style.display="none";
+            }
+
+            // about image information 
+
+            function ALL_about(){
+                document.getElementById("about").style.display="block";
+                document.getElementsByClassName("col-5").style.height="800px";
+                 
+
+            }
+
+            function less_about(){
+                document.getElementById("about").style.display="none";
+                 
+            }
+
+
+
+            // this is myForm
+function openForms(){
+    document.getElementById("form").style.display = "block";
+    document.getElementById("signpage").style.display = "none";
+    document.getElementById("about_dsf").style.display = "none";
+    
+}
+function closeForm(){
+   
+    document.getElementById("form").style.display = "none";
+    
+}
+
+function showLogin() {
+    alert("Thank You For Sign In");
+    document.getElementById("form").style.display = "none";
+}
+
+// this is sign up form
+
+function signup(){
+
+    
+document.getElementById("signpage").style.display = "block";
+document.getElementById("form").style.display = "none";
+document.getElementById("about_dsf").style.display = "none";
+
+}
+function closesignupForm(){
+
+document.getElementById("signpage").style.display = "none";
+}
+
+function showsignup(){
+alert("Thank You For registering");
+document.getElementById("signpage").style.display = "none";
+}
+
+
+
+
+
+
+function About_info(){
+    document.getElementById("about_dsf").style.display = "block";
+    document.getElementById("form").style.display = "none";
+    document.getElementById("signpage").style.display = "none";
+   
+}
+
+function  CloseAbout(){
+    document.getElementById("about_dsf").style.display = "none";
+}
+     
+
+
+
+// this is part of see more about infomation
+
+function seemore(){
+    
+    document.getElementById("seemore").style.width = "500px";
+    document.getElementById("seemore").style.height = "400px";
+    document.getElementById("unview").style.display = "none";
+    document.getElementById("low").style.display = "inline";
+}
+
+function seeless(){
+    document.getElementById("seemore").style.width = "450px";
+    document.getElementById("seemore").style.height = "350px";
+    document.getElementById("unview").style.display = "inline";
+    document.getElementById("low").style.display = "none";
+    
+}
+        </script>
+
+ 
+
+
+
+
+ 
+    </body>
+
+</html>
